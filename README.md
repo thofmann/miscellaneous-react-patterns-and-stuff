@@ -8,7 +8,7 @@
 * [Don't use the index as a key](things/dont-use-the-index-as-a-key.md)
 * [Use lots of small components](things/use-lots-of-small-components.md)
 * [Have children](things/have-children.md)
-* [Use `prop-types`, maybe](things/use-props-types-maybe.md)
+* [Use `prop-types`, maybe](things/use-prop-types-maybe.md)
 * [Require props](things/require-props.md)
 * [Specify default props](things/specify-default-props.md)
 * [Props as props](things/props-as-props.md)
