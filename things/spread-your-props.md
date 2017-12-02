@@ -1,14 +1,18 @@
-# Use lots of small components
+# Spread your props
 
-It's way better to use tiny components than complex ones.
+This can save you from long lists of props.
 
 Instead of:
 
 ```javascript
+const Todo = ({id, text}) => (
+  <div>{id}: {text}</div>
+);
+
 const TodoList = ({todos}) => (
   <div>
     {todos.map(todo => (
-      <div key={todo.id}>{todo.id}: {todo.text}</div>
+      <Todo key={todo.id} id={todo.id} text={todo.text} />
     ))}
   </div>
 );
@@ -24,7 +28,7 @@ const Todo = ({id, text}) => (
 const TodoList = ({todos}) => (
   <div>
     {todos.map(todo => (
-      <Todo key={todo.id} id={todo.id} text={todo.text} />
+      <Todo key={todo.id} {...todo} />
     ))}
   </div>
 );
