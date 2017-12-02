@@ -37,3 +37,5 @@ HugeContainer.childContextTypes = {
   language: PropTypes.string
 };
 ```
+
+[Next: Destructure your context, too](destructure-your-context-too.md)
