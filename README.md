@@ -14,3 +14,7 @@
 * [Props as props](things/props-as-props.md)
 * [You probably shouldn't use context](things/you-probably-shouldnt-use-context.md)
 * [Destructure your context, too](things/destructure-your-context-too.md)
+
+Todo:
+* Binding vs. arrow functions
+* CSS modules
