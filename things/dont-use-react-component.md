@@ -38,4 +38,4 @@ const Widget = function(props) {
 export default Widget;
 ```
 
-[Next: Use Arrow Functions](use-arrow-functions.md)
+[Next: Use arrow functions](use-arrow-functions.md)
