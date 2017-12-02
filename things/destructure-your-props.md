@@ -32,4 +32,6 @@ const Widget = ({ firstName, lastName }) => (
 export default Widget;
 ```
 
+[More info on destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
 [Next: Spread your props](spread-your-props.md)

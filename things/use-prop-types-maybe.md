@@ -21,4 +21,6 @@ TradeLabel.propTypes = {
 export default TradeLabel;
 ```
 
+[More info on `prop-types`](https://reactjs.org/docs/typechecking-with-proptypes.html)
+
 [Next: Require props](require-props.md)

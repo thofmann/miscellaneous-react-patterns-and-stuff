@@ -38,4 +38,6 @@ const Widget = function(props) {
 export default Widget;
 ```
 
+[More info on stateless components](https://hackernoon.com/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc)
+
 [Next: Use arrow functions](use-arrow-functions.md)

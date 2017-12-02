@@ -34,4 +34,6 @@ const TodoList = ({ todos }) => (
 );
 ```
 
+[More info on spreading attributes](https://reactjs.org/docs/jsx-in-depth.html#spread-attributes)
+
 [Next: You can use one line](you-can-use-one-line.md)

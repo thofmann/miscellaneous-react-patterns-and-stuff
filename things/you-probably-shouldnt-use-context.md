@@ -38,4 +38,6 @@ HugeContainer.childContextTypes = {
 };
 ```
 
+[More info on context](https://reactjs.org/docs/context.html)
+
 [Next: Destructure your context, too](destructure-your-context-too.md)

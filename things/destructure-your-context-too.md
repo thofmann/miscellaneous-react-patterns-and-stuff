@@ -49,3 +49,5 @@ Hello.contextTypes = {
   language: PropTypes.string.isRequired
 };
 ```
+
+[More info on destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)

@@ -26,4 +26,6 @@ const TodoList = ({ todos }) => (
 );
 ```
 
+[More info on using an index as a key](https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318)
+
 [Next: Use lots of small components](use-lots-of-small-components.md)
