@@ -79,4 +79,4 @@ const Titles = ({ titleText, subtitleText }) => (
 );
 ```
 
-* [Next: Use `prop-types`, maybe](use-prop-types-maybe.md)
+[Next: Use `prop-types`, maybe](use-prop-types-maybe.md)

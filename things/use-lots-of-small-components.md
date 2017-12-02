@@ -30,4 +30,4 @@ const TodoList = ({ todos }) => (
 );
 ```
 
-* [Next: Have children](have-children.md)
+[Next: Have children](have-children.md)
