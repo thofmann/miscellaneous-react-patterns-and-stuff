@@ -1,27 +1,39 @@
-# Props as props
+# You probably shouldn't use context
 
-Defining entire "props" objects as props can help to organize data, and it works well with spreading props.
-
-It's hard to explain, but here is an example:
+But if you want to, here's how:
 
 ```javascript
-const Avatar = ({ url }) => (
-  <img src={url} />
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+const Title = (props, context) => (
+  <h2>
+    Language: {context.language}
+  </h2>
 );
 
-const Info = ({ firstName, lastName, age }) => (
-  <div>
-    <p>{firstName} {lastName}</p>
+Title.contextTypes = {
+  language: PropTypes.string
+};
 
-  </div>
-);
+const SmallContainer = () => <div><Title /></div>
+const MediumContainer = () => <div><SmallContainer /></div>;
+const BigContainer = () => <div><MediumContainer /></div>;
 
-const Profile = ({ avatarProps, infoProps }) => (
-  <div>
-    <Avatar {...avatarProps} />
-    <Info {...infoProps} />
-  </div>
-);
+class HugeContainer extends Component {
+
+  getChildContext() {
+    return {
+      language: 'en'
+    };
+  }
+
+  render() {
+    return <div><BigContainer /></div>;
+  }
+}
+
+HugeContainer.childContextTypes = {
+  language: PropTypes.string
+};
 ```
-
-[Next: Your probably shouldn't use context](you-probably-shouldnt-use-context.md)

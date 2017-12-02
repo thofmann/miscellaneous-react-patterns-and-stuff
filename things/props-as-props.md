@@ -27,3 +27,5 @@ const Profile = ({ avatarProps, infoProps }) => (
   </div>
 );
 ```
+
+[Next: You probably shouldn't use context](you-probably-shouldnt-use-context.md)

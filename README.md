@@ -12,3 +12,4 @@
 * [Require props](things/require-props.md)
 * [Specify default props](things/specify-default-props.md)
 * [Props as props](things/props-as-props.md)
+* [You probably shouldn't use context](things/you-probably-shouldnt-use-context)
