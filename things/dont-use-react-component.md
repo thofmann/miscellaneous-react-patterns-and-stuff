@@ -1,4 +1,4 @@
-# Don't Use `React.Component`
+# Don't use `React.Component`
 
 When possible, use pure stateless functions instead!
 
@@ -37,3 +37,5 @@ const Widget = function(props) {
 
 export default Widget;
 ```
+
+[Next: Use Arrow Functions](use-arrow-functions.md)
