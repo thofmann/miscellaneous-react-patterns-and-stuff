@@ -20,3 +20,4 @@ Todo:
 * CSS modules
 * Conditional rendering
 * Null rendering
+* Redux
