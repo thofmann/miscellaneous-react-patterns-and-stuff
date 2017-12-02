@@ -31,3 +31,5 @@ const Widget = ({firstName, lastName}) => (
 
 export default Widget;
 ```
+
+[Next: Spread your props](spread-your-props.md)

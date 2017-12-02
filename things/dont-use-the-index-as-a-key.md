@@ -25,3 +25,5 @@ const TodoList = ({todos}) => (
   </div>
 );
 ```
+
+[Next: Use lots of small components](use-lots-of-small-components.md)

@@ -78,3 +78,5 @@ const Titles = ({titleText, subtitleText}) => (
   </div>
 );
 ```
+
+* [Next: Use `prop-types`, maybe](use-prop-types-maybe.md)

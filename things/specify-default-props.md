@@ -18,3 +18,5 @@ Avatar.defaultProps = {
 
 export default Avatar;
 ```
+
+[Next: Props as props](props-as-props.md)
