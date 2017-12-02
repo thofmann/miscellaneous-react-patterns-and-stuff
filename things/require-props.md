@@ -6,7 +6,7 @@ If you are going to define the prop types, you might as well specify when they a
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const TradeLabel = ({currency, price, quantity}) => (
+const TradeLabel = ({ currency, price, quantity }) => (
   <p>{quantity} units of {currency} were traded at a price of {price}.</p>
 );
 

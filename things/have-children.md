@@ -5,23 +5,23 @@ The `children` prop is super useful, especially for making very flexible and reu
 Instead of:
 
 ```javascript
-const Title = ({text}) => <div className='title'>{text}</div>;
+const Title = ({ text }) => <div className='title'>{text}</div>;
 
-const Subtitle = ({text}) => <div className='subtitle'>{text}</div>;
+const Subtitle = ({ text }) => <div className='subtitle'>{text}</div>;
 
-const BlueTitle = ({text}) => (
+const BlueTitle = ({ text }) => (
   <div className='blue-section'>
     <Title text={text} />
   </div>
 );
 
-const BlueSubtitle = ({text}) => (
+const BlueSubtitle = ({ text }) => (
   <div className='blue-section'>
     <Subtitle text={text} />
   </div>
 );
 
-const Titles = ({title, subtitle}) => (
+const Titles = ({ title, subtitle }) => (
   <div>
     <BlueTitle text={title} />
     <BlueSubtitle text={subtitle} />
@@ -32,17 +32,17 @@ const Titles = ({title, subtitle}) => (
 Try:
 
 ```javascript
-const Title = ({text}) => <div className='title'>{text}</div>;
+const Title = ({ text }) => <div className='title'>{text}</div>;
 
-const Subtitle = ({text}) => <div className='subtitle'>{text}</div>;
+const Subtitle = ({ text }) => <div className='subtitle'>{text}</div>;
 
-const Blue = ({children}) => (
+const Blue = ({ children }) => (
   <div className='blue-section'>
     {children}}
   </div>
 );
 
-const Titles = ({titleText, subtitleText}) => (
+const Titles = ({ titleText, subtitleText }) => (
   <div>
     <Blue>
       <Title text={titleText} />    
@@ -57,17 +57,17 @@ const Titles = ({titleText, subtitleText}) => (
 Let's use more children:
 
 ```javascript
-const Title = ({children}) => <div className='title'>{children}</div>;
+const Title = ({ children }) => <div className='title'>{children}</div>;
 
-const Subtitle = ({children}) => <div className='subtitle'>{children}</div>;
+const Subtitle = ({ children }) => <div className='subtitle'>{children}</div>;
 
-const Blue = ({children}) => (
+const Blue = ({ children }) => (
   <div className='blue-section'>
     {children}}
   </div>
 );
 
-const Titles = ({titleText, subtitleText}) => (
+const Titles = ({ titleText, subtitleText }) => (
   <div>
     <Blue>
       <Title>{titleText}</Title>

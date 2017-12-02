@@ -23,7 +23,7 @@ Try:
 ```javascript
 import React from 'react';
 
-const Widget = ({firstName, lastName}) => (
+const Widget = ({ firstName, lastName }) => (
   <div>
     I am a widget. My name is {firstName} {lastName}.
   </div>

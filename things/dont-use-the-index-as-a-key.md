@@ -5,7 +5,7 @@ Try to find/make a better identifier when rendering a list.
 Instead of:
 
 ```javascript
-const TodoList = ({todos}) => (
+const TodoList = ({ todos }) => (
   <div>
     {todos.map((todo, i) => (
       <div key={i}>{todo.id}: {todo.text}</div>
@@ -17,7 +17,7 @@ const TodoList = ({todos}) => (
 Try:
 
 ```javascript
-const TodoList = ({todos}) => (
+const TodoList = ({ todos }) => (
   <div>
     {todos.map(todo => (
       <div key={todo.id}>{todo.id}: {todo.text}</div>

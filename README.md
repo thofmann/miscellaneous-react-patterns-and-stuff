@@ -11,3 +11,4 @@
 * [Use `prop-types`, maybe](things/use-props-types-maybe.md)
 * [Require props](things/require-props.md)
 * [Specify default props](things/specify-default-props.md)
+* [Props as props](things/props-as-props.md)

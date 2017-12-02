@@ -6,7 +6,7 @@ If a prop is not required, define a default value for it.
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Avatar = ({url}) => <img src={url} />;
+const Avatar = ({ url }) => <img src={url} />;
 
 Avatar.propTypes = {
   url: PropTypes.string
